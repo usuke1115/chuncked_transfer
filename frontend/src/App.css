@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 0;
+}
+
+.start-button {
+    text-align: center;
+    width: 8%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #61b0e2;
+    color: #FFFFFF;
+    padding: 8px;
+    border-color: #61b0e2;
+    border-radius: 8px;
+    transition: opacity 0.5s;
+}
+
+.start-button:hover {
+    opacity: 40%;
+}

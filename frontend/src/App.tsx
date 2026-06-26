@@ -26,10 +26,10 @@ function App() {
   }
 
   return (
-    <>
-      <button onClick={start}>start</button>
-      <pre>{text}</pre>
-    </>
+    <div className='container'>
+      <button className='start-button' onClick={start}>start</button>
+      <pre className='text'>{text}</pre>
+    </div>
   )
 }
 
